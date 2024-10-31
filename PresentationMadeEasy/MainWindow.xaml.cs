@@ -66,9 +66,6 @@ namespace PresentationMadeEasy
 
             this.AppWindow.Resize(new SizeInt32(1280, 720));
 
-            IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
-            var windowId = Win32Interop.GetWindowIdFromWindow(hWnd);
-
             AppWindow.SetIcon("Assets/Logo/logo.ico");
 
             if (this.AppWindow != null && this.AppWindow.Presenter is OverlappedPresenter presenter)
