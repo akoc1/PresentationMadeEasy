@@ -36,7 +36,7 @@ Bu proje aşağıdaki teknolojiler ve kütüphaneler kullanılarak geliştirilmi
 
 ## Kurulum
 
-Bu projeyi kendi bilgisayarınızda çalıştırmak için hazır build'i alınmış versiyonu **[indirip](https://github.com/akoc1/PresentationMadeEasy/releases)** kullanabilirsiniz veyahut kaynak kodu derleyip çalıştırmak istiyorsanız aşağıdaki adımları takip edebilirsiniz.
+Bu projeyi kendi bilgisayarınızda çalıştırmak için hazır build'i alınmış versiyonu **[indirip](https://github.com/akoc1/PresentationMadeEasy/releases)** (.Net Runtime yüklü olmalı) kullanabilirsiniz veyahut kaynak kodu derleyip çalıştırmak istiyorsanız aşağıdaki adımları takip edebilirsiniz.
 
 1. **Projeyi Klonlayın**: 
    ```bash
