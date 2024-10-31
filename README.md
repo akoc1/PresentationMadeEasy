@@ -43,7 +43,7 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak için hazır build'i alınm�
    git clone https://github.com/akoc1/PresentationMadeEasy.git
    
 2. **Gerekli Bağımlılıkları Yükleyin**:
-   WinUI 3 ve .NET 5 veya daha üstü bir sürümü sisteminizde yüklü olmalıdır.
+   WinUI 3 ve .NET 8 veya daha üstü bir sürümü sisteminizde yüklü olmalıdır.
 
    GlobalMouseKeyHook kütüphanesini yüklemek için NuGet Paket Yöneticisi'ni kullanın:
    ```bash
