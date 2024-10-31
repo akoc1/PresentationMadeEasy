@@ -13,15 +13,15 @@ Presentation Made Easy, kullanıcıların sunum yaparken kolayca bölümler aras
 - **Bölüm Ekleyebilme**: Kullanıcılar istedikleri kadar bölüm ekleyebilir.
 - **Bölümler Arası Geçiş**: Eklenen bölümler arasında sırayla veya doğrudan geçiş yapabilme.
 - **Özelleştirilmiş Metinler**: Bölümler için açıklamalar ve işlevsel bilgiler eklenebilir.
-- **Klavye ve Fare Etkileşimi**: [GlobalMouseKeyHook](https://github.com/gmamaladze/globalmousekeyhook) kütüphanesi ile klavye ve fare girişleri üzerinden sunum kontrolü sağlanır.
+- **Fare Etkileşimi**: [GlobalMouseKeyHook](https://github.com/gmamaladze/globalmousekeyhook) kütüphanesi ile fare girişleri üzerinden sunum kontrolü sağlanır.
 - **Basit ve Kullanıcı Dostu Arayüz**: Minimalist ve modern bir tasarım, kullanıcı deneyimini iyileştirir.
 
 ## Teknolojiler
 
 Bu proje aşağıdaki teknolojiler ve kütüphaneler kullanılarak geliştirilmiştir:
 
-- **C#**
-- **WinUI**
+- **.Net 8**, **C#**
+- **WinUI 3**
 - **[GlobalMouseKeyHook](https://github.com/gmamaladze/globalmousekeyhook)** - Klavye ve fare girişlerini dinlemek için kullanılmıştır.
 
 ## Ekran Görüntüleri
@@ -36,7 +36,7 @@ Bu proje aşağıdaki teknolojiler ve kütüphaneler kullanılarak geliştirilmi
 
 ## Kurulum
 
-Bu projeyi kendi bilgisayarınızda çalıştırmak için hazır build'i alınmış versiyonu **[indirip](https://github.com/akoc1/PresentationMadeEasy/releases/tag/v1.0.0)** kullanabilirsiniz veyahut kaynak kodu derleyip çalıştırmak istiyorsanız aşağıdaki adımları takip edebilirsiniz.
+Bu projeyi kendi bilgisayarınızda çalıştırmak için hazır build'i alınmış versiyonu **[indirip](https://github.com/akoc1/PresentationMadeEasy/releases)** kullanabilirsiniz veyahut kaynak kodu derleyip çalıştırmak istiyorsanız aşağıdaki adımları takip edebilirsiniz.
 
 1. **Projeyi Klonlayın**: 
    ```bash
