@@ -81,9 +81,6 @@ namespace PresentationMadeEasy.Views.Windows
 
             AppWindow.Resize(new SizeInt32(540, 270));
 
-            IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
-            var windowId = Win32Interop.GetWindowIdFromWindow(hWnd);
-
             AppWindow.SetIcon("Assets/Logo/logo.ico");
 
             if (this.AppWindow != null && this.AppWindow.Presenter is OverlappedPresenter presenter)
@@ -172,7 +169,7 @@ namespace PresentationMadeEasy.Views.Windows
 
         private void RecordMouseButton_Unchecked(object sender, RoutedEventArgs e)
         {
-            ToolTipService.SetToolTip(RecordMouseButton, "Fare dinleyicisini aç");
+            ToolTipService.SetToolTip(RecordMouseButton, "Fare dinleyicisini aÃ§");
             Unsubscribe();
         }
     }
