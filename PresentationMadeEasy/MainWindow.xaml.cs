@@ -43,10 +43,6 @@ namespace PresentationMadeEasy
             ParagraphsListView.ItemsSource = Contents;
 
             _presenter = AppWindow.Presenter as OverlappedPresenter;
-
-            //ShowPrompterWindow();
-
-            //ElementSoundPlayer.State = ElementSoundPlayerState.On;
         }
 
         public MainWindow(ObservableCollection<Content> _contents) : this()
