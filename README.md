@@ -22,7 +22,7 @@ Bu proje aşağıdaki teknolojiler ve kütüphaneler kullanılarak geliştirilmi
 
 - **.Net 8**, **C#**
 - **WinUI 3**
-- **[GlobalMouseKeyHook](https://github.com/gmamaladze/globalmousekeyhook)** - Klavye ve fare girişlerini dinlemek için kullanılmıştır.
+- **[GlobalMouseKeyHook](https://github.com/gmamaladze/globalmousekeyhook)** - Fare girişlerini dinlemek için kullanılmıştır.
 
 ## Ekran Görüntüleri
 
