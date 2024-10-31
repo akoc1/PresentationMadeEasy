@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window
+    x:Class="PresentationMadeEasy.Views.Windows.PrompterWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:PresentationMadeEasy.Views.Windows"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Presentation Helper"
+    mc:Ignorable="d">
+
+    <Grid
+        x:Name="MainWindowRootGrid"
+        Background="White"
+        RowSpacing="8">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="16" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid
+            x:Name="AppTitleBar"
+            Grid.Row="0"
+            Background="#2e2e2e">
+
+            <FontIcon
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Glyph="&#xE94E;" />
+
+        </Grid>
+
+        <Grid
+            x:Name="ContentGrid"
+            Grid.Row="1"
+            RowSpacing="4">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <TextBlock
+                x:Name="TitleTextBlock"
+                FontSize="18"
+                FontWeight="SemiBold"
+                Foreground="Black"
+                Text="Title"
+                TextAlignment="Center" />
+
+            <ToggleButton
+                x:Name="RecordMouseButton"
+                Margin="8,0,0,0"
+                HorizontalAlignment="Left"
+                Checked="RecordMouseButton_Checked"
+                RequestedTheme="Light"
+                ToolTipService.ToolTip="Fare dinleyicisini aç"
+                Unchecked="RecordMouseButton_Unchecked">
+                <FontIcon FontSize="12" Glyph="&#xE962;" />
+            </ToggleButton>
+
+            <Button
+                x:Name="CloseButton"
+                Margin="0,0,8,0"
+                HorizontalAlignment="Right"
+                Click="CloseButton_Click"
+                RequestedTheme="Light"
+                ToolTipService.ToolTip="Kapat">
+                <FontIcon FontSize="12" Glyph="&#xE8BB;" />
+            </Button>
+
+            <ScrollViewer
+                Grid.Row="1"
+                Margin="12,0"
+                VerticalAlignment="Center"
+                VerticalScrollBarVisibility="Visible"
+                ZoomMode="Disabled">
+
+                <TextBlock
+                    x:Name="ParagraphRichEdit"
+                    FontSize="14"
+                    FontWeight="Normal"
+                    Foreground="Black"
+                    TextAlignment="Center"
+                    TextWrapping="WrapWholeWords" />
+
+            </ScrollViewer>
+
+            <StackPanel
+                x:Name="NavigationStackPanel"
+                Grid.Row="2"
+                Margin="8"
+                HorizontalAlignment="Center"
+                Orientation="Horizontal"
+                Spacing="8">
+
+                <Button
+                    x:Name="PreviousButton"
+                    Click="PreviousButton_Click"
+                    RequestedTheme="Light"
+                    ToolTipService.ToolTip="Önceki içerik">
+
+                    <FontIcon FontWeight="Bold" Glyph="&#xE760;" />
+
+                </Button>
+
+                <Button
+                    x:Name="NextButton"
+                    Click="NextButton_Click"
+                    RequestedTheme="Light"
+                    ToolTipService.ToolTip="Sıradaki içerik">
+
+                    <FontIcon FontWeight="Bold" Glyph="&#xE761;" />
+
+                </Button>
+
+            </StackPanel>
+
+        </Grid>
+
+    </Grid>
+
+</Window>
