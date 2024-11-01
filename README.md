@@ -5,8 +5,8 @@ Presentation Made Easy, kullanıcıların sunum yaparken kolayca bölümler aras
 ## Kullanım
 
 - **Bölüm Ekleyin**: Sağ üst köşedeki "+" simgesine tıklayarak yeni bir bölüm ekleyin. Bölüm adını ve açıklamasını girin.
-- **Sunuma Başlayın**: "Sunum Yardımcısını Başlat" butonuna tıklayarak sunum moduna geçiş yapın. Fare kontrollerini kullanarak bölümler arasında geçiş yapın.
 - **Düzenleme ve Silme**: Bölümleri düzenlemek için kalem simgesine, silmek için çöp kutusu simgesine tıklayın.
+- **Sunuma Başlayın**: "Sunum Yardımcısını Başlat" butonuna tıklayarak sunum moduna geçiş yapın. Fare kontrollerini kullanarak bölümler arasında geçiş yapın.
 
 ## Özellikler
 
