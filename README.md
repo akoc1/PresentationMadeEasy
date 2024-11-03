@@ -1,6 +1,6 @@
 # Presentation Made Easy
 
-Presentation Made Easy, kullanıcıların sunum yaparken kolayca bölümler arasında gezinmesine olanak tanıyan bir C# ve WinUI tabanlı bir uygulamadır. Bu proje, özellikle eğitim veya iş sunumları için bölümleri sırayla görüntülemeyi ve kontrol etmeyi kolaylaştırmayı amaçlamaktadır. PowerPoint'in notlar özelliği var fakat yine de böyle bir program yapmak istedim.
+Presentation Made Easy, kullanıcıların sunum yaparken kolayca bölümler arasında gezinmesine olanak tanıyan bir C# ve WinUI tabanlı bir uygulamadır. Bu proje, özellikle eğitim veya iş sunumları için bölümleri sırayla görüntülemeyi ve kontrol etmeyi kolaylaştırmayı amaçlamaktadır. PowerPoint'in notlar özelliği var fakat yine de böyle bir uygulama yapmak istedim.
 
 ## Kullanım
 
